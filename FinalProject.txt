@@ -160,7 +160,7 @@
 	    <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>
 	  </ul>
 	  <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">
-		<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>
+		<h6>Made by: </h6>
 	  </span>
     </footer>
   </body>
