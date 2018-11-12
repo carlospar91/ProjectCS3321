@@ -4,7 +4,7 @@
 <html lang = "en">
   <head>
     <meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-	  <title>UHD CS LEARNING MANAGEMENT SYSTEM </title>
+	  <title>UHD CS External Help</title>
 	  <style>
 	    #webDev {}
 		#cplus {}
@@ -137,7 +137,7 @@
 		<li><a href="https://coderdojo.com/" target="_blank">Coder Dojo</a></li>
 		<li><a href="https://teamtreehouse.com/" target="_blank">Treehouse</a></li>
 	  </ul>		
-	  <h1 style="color:black"> <!--<strong class="uhdblue">UH</strong><strong class="uhdred">D</strong>--> LEARNING MANAGEMENT SYSTEM </h1>
+	  <h1 style="color:black"> <!--<strong class="uhdblue">UH</strong><strong class="uhdred">D</strong>--> Computer Science External Help Page </h1>
 	</header>	
 	  <br><br><br>
 	  <h2>External Classrooms</h2>
@@ -160,7 +160,7 @@
 	    <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>
 	  </ul>
 	  <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">
-		<h6>Made by: Carlos, Luis, Zane </h6>
+		<h6>Made by: Christopher Felicitas, Luis Moreno, Carlos Parlour, Brandon Toppass</h6>
 	  </span>
     </footer>
   </body>
