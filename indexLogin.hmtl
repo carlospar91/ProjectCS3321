@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!-- Computer Science help page website -->
+
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>UHD CS LEARNING MANAGEMENT SYSTEM </title>
+	  <style>
+	    #webDev {}
+		#cplus {}
+		#java {}
+		#python {}
+		.uhdblue{
+		  font-family: Georgia, serif;
+		  color:blue;
+		}
+		.uhdred {
+		  font-family: Georgia, serif;
+		  color:red;
+		}
+		#header { 
+				background:
+				url(bannerColor3.png) no-repeat white;
+				background-size: 100%;
+		}
+		#topNav {
+		  float: right;
+		  width:30.5%;
+		  background-color:rgba(192,192,192,0.4);
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		}
+		#topNav li a{
+		  float: right;
+		  <!--background-color:rgba(192,192,192,0.1);-->
+		  display: block;
+		  font-size: 20px;
+		  font-family: serif;
+		  color: black;
+		  text-shadow: 2px 1px 1px #666666
+		  text-align: center;
+		  padding: 10px 15px;
+		  text-decoration: none;
+		}
+		#topNav li a:hover{
+		  <!--background-color: gray;-->
+		  color:white;
+		  text-decoration: underline;
+		}
+		#botNav{
+		  border-top: 3px solid black;
+		  width:100%;
+		  float: right;
+		  background-color:rgba(0,0,0,0);
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		}
+		#botNav li a{
+		  float: right;
+		  background-color:rgba(0,0,0,0);
+		  display: block;
+		  font-size: 20px;
+		  font-family: serif;
+		  color: black;
+		  text-align: center;
+		  padding: 5px 15px;
+		  text-decoration: none;
+		}
+		#botNav li a:hover{
+		  background-color: lightgray;
+		  color:white;
+		}
+		h1{
+		  text-shadow: 2px 2px 2px #666666
+		}
+		h2{
+		  text-shadow: 2px 1px 1px #b3b3b3
+		}
+		img {
+		  max-width: 10%;
+		  height: auto;
+		  width: auto\9; 
+		}
+		#nav {
+		  width: 100%;
+		  float: left;
+		  margin: 0 0 1em 0;
+		  padding: 2px;
+		  list-style: none;
+		  background-color: navy;
+		  border-bottom: 2px solid darkred; 
+		  border-top: 2px solid darkred; 
+		}
+	    #nav li {
+		  float: left; 
+		}
+		#nav li a {
+		  display: block;
+		  padding: 8px 15px;
+		  text-decoration: none;
+		  font-weight: bold;
+		  color: white;
+		  border-right: 2px solid darkred; 
+		}
+		#nav li a:hover {
+		  color: navy;
+		  background-color: white; 
+		}
+		.centerText{
+		  padding: 10px 0;
+		  font-size: 20px;
+		  border:solid 1px #000;
+		}			
+	  </style>		
+  </head>
+	
+  <body id="header">
+	<header>
+	  <div class="topimage">
+		<a href="https://www.uhd.edu/Pages/home.aspx" target="_blank"><img src="180pxUHD.png" style= "float: left" width="180px"></a>
+	  </div>
+	  <ul id= "topNav">
+		<li><a href="https://www.uhd.edu/administration/university-relations/social-media/Pages/default.aspx" target="_blank">Social</a></li>
+		<li><a href="https://www.uhd.edu/advancement/Pages/give-to-uhd.aspx" target="_blank">Give</a></li>
+		<li><a href="https://www.uhd.edu/myuhd/Pages/default.aspx" target="_blank">myUHD</a></li>
+		<li><a href="https://www.uhd.edu/admissions/apply/Pages/admissions-application.aspx" target="_blank">Apply</a></li>
+		<li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>
+	  </ul>
+
+	  <ul id="nav">
+		<li><a href="https://www.udacity.com/" target="_blank">Udacity</a></li>
+		<li><a href="https://www.pluralsight.com/codeschool" target="_blank">Code School</a></li>
+		<li><a href="https://coderdojo.com/" target="_blank">Coder Dojo</a></li>
+		<li><a href="https://teamtreehouse.com/" target="_blank">Treehouse</a></li>
+	  </ul>		
+	  <h1 style="color:black"> <!--<strong class="uhdblue">UH</strong><strong class="uhdred">D</strong>--> LEARNING MANAGEMENT SYSTEM </h1>
+	</header>	
+	  <br><br><br>
+	  <h2>External Classrooms</h2>
+	  <p class= "centerText"> This is our LMS for CS3321. You will be able to login and view your course info. This includes your grades, student ID, classes registers, and etc.
+	  </p>
+	  <form>
+	
+	  </form>
+	  </body>
+
+<style>
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #000080;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<h2>Student Login Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="uhd-logo.png" alt="uhd-logo" class="uhd-logo">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#000ff">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<footer>
+	  
+	  <ul id= "botNav">
+		<li><a href="https://www.uhd.edu/administration/university-relations/social-media/Pages/default.aspx" target="_blank">Social</a></li>
+		<li><a href="https://www.uhd.edu/advancement/Pages/give-to-uhd.aspx" target="_blank">Give</a></li>
+		<li><a href="https://www.uhd.edu/myuhd/Pages/default.aspx" target="_blank">myUHD</a></li>
+		<li><a href="https://www.uhd.edu/admissions/apply/Pages/admissions-application.aspx" target="_blank">Apply</a></li>
+	    <li><a href="https://www.uhd.edu/admissions/Pages/admissions-request.aspx" target="_blank">Request Info</a></li>
+	  </ul>
+	  <span style= "float: left; text-shadow: 1px 1px 1px #b3b3b3">
+		
+	  </span>
+    </footer>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+<h6>Made by: Carlos, Luis, Zane </h6>
+</script>
+
+</body>
+
+</html>
